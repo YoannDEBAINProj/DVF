@@ -19,9 +19,11 @@ Pour résoudre le problème les données sont alors pondérées de façon à ce 
 
 # Ouverture 
 
-D'autres variables pourraient être pertinentes : revenus, attractivité (position dans l'aire d'attraction), etc.
+Ce projet est un premier jet. Il ne serait donc pas surprenant que certains résultats soient étonnants. Néanmoins il n'y a pas à ma connaissance de projet permettant de fournir des prix sur l'ensemble du territoire métropolitain (uniquement là où il y a un minimum de x ventes). Ainsi je suis persuadé que des résultats (même faux) restent mieux que pas de résultat du tout et qu'avec un peu de fine tuning (métier et statistique), les modèles proposées pourront être plus précis et donc plus utiles. 
 
-Le nombre de données est relativement faible étant donné le nombre de variables et d'iris en France. On pourrait utiliser les ventes des années précédentes (corrigées de l'inflation) afin d'avoir un jeu de données plus important (surtout pour les iris avec peu ou pas de ventes).
+D'autres variables pourraient être pertinentes : revenus, attractivité (position dans l'aire d'attraction), la période de vente, etc.
+
+Le nombre de données est relativement faible étant donné le nombre de variables et d'iris en France. On pourrait utiliser les ventes des années précédentes (corrigées de l'inflation) afin d'avoir un jeu de données plus important (surtout pour les iris avec peu ou pas de ventes). 
 
 La pondération fait correspondre les distributions marginales, mais cela ne garantit pas la correspondance des distributions jointes. L'utilisation d'un algorithme permettant cette correspondance serait plus pertinent. 
 
